@@ -38,8 +38,8 @@ datasets:
   train:
     name: DF2K+OST
     type: RealESRGANDataset
-    dataroot_gt: datasets/fastmri_hr
-    meta_info: datasets/fastmri_meta.txt
+    dataroot_gt: datasets/train_val_test/train/hr
+    meta_info: datasets/train_val_test/fastmri_train_meta.txt
     io_backend:
       type: disk
 
