@@ -1,8 +1,8 @@
 import os
 
 # Define paths
-hr_dir = 'datasets/fastmri_multiscale'  # Path to HR images
-meta_file = 'datasets/fastmri_multiscale_meta.txt'  # Output meta file
+hr_dir = 'datasets/train_val_test/train/hr'  # Path to HR images
+meta_file = 'datasets/train_val_test/fastmri_train_meta.txt'  # Output meta file
 
 # Create meta info file
 with open(meta_file, 'w') as f:
