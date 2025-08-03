@@ -99,6 +99,9 @@ Average PSNR: 31.8723 dB
 Average SSIM: 0.8872
 ```
 
+## Optionals:
+Code used to generate LR images is here: /realesrgan/data/fastmri_lr_gen.py
+
 ---
 
 Happy fine-tuning! 🚀
